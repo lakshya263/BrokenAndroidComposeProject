@@ -24,14 +24,14 @@ class MainActivity : ComponentActivity() {
 
         BrokenRepository.init(applicationContext)
 
-//        if (com.greedygame.brokenandroidcomposeproject.BuildConfig.DEBUG) {
-//            StrictMode.setThreadPolicy(
-//                StrictMode.ThreadPolicy.Builder()
-//                    .detectNetwork()
-//                    .penaltyLog()
-//                    .build()
-//            )
-//        }
+        if (com.greedygame.brokenandroidcomposeproject.BuildConfig.DEBUG) {
+            StrictMode.setThreadPolicy(
+                StrictMode.ThreadPolicy.Builder()
+                    .detectNetwork()
+                    .penaltyLog()
+                    .build()
+            )
+        }
 
         setContent {
             Surface(modifier = Modifier.fillMaxSize()) {
