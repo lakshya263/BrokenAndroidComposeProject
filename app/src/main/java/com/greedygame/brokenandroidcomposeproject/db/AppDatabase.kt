@@ -2,8 +2,12 @@ package com.greedygame.brokenandroidcomposeproject.db
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.greedygame.brokenandroidcomposeproject.data.Article
 
-@Database(entities = [Article::class], version = 1)
+@Database(
+    entities = [ArticleEntity::class],
+    version = 1,
+    exportSchema = false
+)
 abstract class AppDatabase : RoomDatabase() {
+    abstract fun articleDao(): ArticleDao
 }

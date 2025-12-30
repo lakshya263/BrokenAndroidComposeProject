@@ -12,7 +12,7 @@ This project is intentionally flawed. Your tasks:
 8. Remove memory leak (do not use static Activity references)
 9. Implement updateArticle to persist edits
 10. Improve project structure where obvious (move business logic out of composables)
-
+w
 
 Deliverables:
 - Working app (no crashes) that loads articles (from the fake API or a real one)
