@@ -2,7 +2,7 @@
 
 Final Bug Fix & Architecture Documentation
 
-Candidate: Lakshya Srivastava
+Candidate: Lakshya Srivastava     
 Role: Android Intern – Greedy Game
 
 ## Task List (As Provided)
